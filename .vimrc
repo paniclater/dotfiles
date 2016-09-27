@@ -5,6 +5,10 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'othree/html5.vim'
+Plugin 'hail2u/vim-css3-syntax',
+Plugin 'mxw/vim-jsx'
 Plugin 'trevordmiller/nova-vim'
 call vundle#end()
 filetype plugin indent on
@@ -24,5 +28,8 @@ set number
 vnoremap > >gv
 vnoremap < <gv
 
-"trevor d miller's rad color schem plugin
+"auto delete trailing white space on save
+autocmd BufWritePre * %s/\s\+$//e
+
+"trevor d miller's rad color scheme plugin
 colorscheme nova
