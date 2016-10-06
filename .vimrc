@@ -8,8 +8,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/html5.vim'
 Plugin 'hail2u/vim-css3-syntax',
-Plugin 'mxw/vim-jsx'
-Plugin 'trevordmiller/nova-vim'
+Plugin 'mxw/vim-jsx',
+Plugin 'trevordmiller/nova-vim',
+Plugin 'scrooloose/nerdtree'
 call vundle#end()
 filetype plugin indent on
 
